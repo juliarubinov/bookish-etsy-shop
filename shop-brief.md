@@ -1,38 +1,38 @@
-# Shop Brief
+# Shop Brief — Department of Yearning
 
-> Fill in the blanks — everything else in this project builds on this page.
+_Last updated 2026-10-15. Status: collection drafted, nothing published, nothing spent._
 
 ## Concept
-- **Working shop name:** _TBD (see `brand/name-ideas.md`)_
-- **One-line pitch:** _e.g. "Cozy, handmade accessories for readers who annotate."_
-- **Why this shop / why me:**
+- **Shop name (working):** DeptOfYearning / "Department of Yearning" (availability unverified)
+- **Pitch:** Original, slightly too-official gear for romance readers.
+- **Story:** an imaginary office where readers work the Night Shift and Morning Shift, carry an Issued Bag,
+  and keep Official Records of their reading. See `brand/README.md`.
 
 ## Audience
-- **Who they are:** _e.g. BookTok/Bookstagram readers, 18–35, romance & fantasy fans_
-- **What they care about:**
-- **Where they hang out:** _TikTok, Instagram, Goodreads, book clubs, Discord_
+- Adult book lovers, starting with **romance readers** (including romantasy fans). Content stays PG; no explicit wording.
+- They value inside jokes about the *reading experience* (yearning, late nights, being wrecked by a chapter)
+  and gifts for reader friends. _(Hypothesis H1, see `research/README.md`.)_
 
-## Product lines
-| Line | Example products | Format (physical / digital / POD) | Priority |
-|---|---|---|---|
-| | | | |
-| | | | |
+## Collection (launch set: 5 products)
+| # | Product | Blank / format | Price | Slug |
+|---|---|---|---|---|
+| 1 | Ruined by Chapter Twelve tee | Comfort Colors 1717, DTG | $32 | `ruined-by-chapter-twelve-tee` |
+| 2 | Department of Yearning — Night Shift crewneck | Gildan 18000, DTG | $46 | `yearning-night-shift-sweatshirt` |
+| 3 | Coffee First, Then Yearning mug | 11oz ceramic, sublimation | $24 | `yearning-morning-shift-mug` |
+| 4 | Contents tote | S&S natural canvas tote, DTG | $26 | `contents-tote` |
+| 5 | The Yearning Log printable | PDF instant download | $6.50 | `yearning-log-printable` |
 
-Common bookish categories to consider: bookmarks, annotation kits/tabs, reading
-journals & trackers (printable or physical), stickers, book sleeves, tote bags,
-candles, enamel pins, bookplates/library stamps, digital Kindle accessories.
+Five products, one concept, two inks, three fonts. Few listings, but each is a strong one.
 
-## Style & vibe
-_e.g. dark academia, cottagecore, minimalist, whimsical fantasy_
+## Production
+- **Physical:** Printify print-on-demand (provider per product still to choose).
+- **Digital:** Etsy instant download.
 
-## Goals
-- **Launch date:**
-- **Listings at launch:** _(aim for 10–20 — Etsy rewards shops with more listings)_
-- **First-90-day sales goal:**
-- **Time per week I can give this:**
-- **Startup budget:**
+## Style
+Editorial serif type, wine and deep plum on light blanks, small heart/book/moon motifs.
 
-## Constraints
-- Production method / equipment I have:
-- Shipping: domestic only or international?
-- Things I won't do:
+## Goals & constraints
+- **Launch budget:** ❓ **not yet confirmed. Nothing will be spent until you confirm it.**
+- **Launch date:** not set. A good target is before mid-November for holiday gifting (assumption H4).
+- **Shipping:** US free shipping built into prices. International: not yet decided.
+- **Won't do:** book quotes, character/author/series references, copied competitor art or text.

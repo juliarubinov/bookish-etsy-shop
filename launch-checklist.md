@@ -1,41 +1,45 @@
 # Launch Checklist
 
 ## 1. Plan
-- [ ] Fill in `shop-brief.md`
-- [ ] Niche & competitor research (`research/`)
-- [ ] Pick 3–5 starting products
+- [x] Fill in `shop-brief.md`
+- [x] Research round 1 (`research/`)
+- [x] Pick launch products (5)
+- [ ] **Confirm launch budget** (owner)
 
 ## 2. Brand
-- [ ] Choose shop name; check Etsy + social handles
-- [ ] Logo and banner
-- [ ] Color palette and fonts
-- [ ] Write shop About section and policies
+- [x] Concept, palette, fonts, voice
+- [ ] Confirm shop name on Etsy + social handles (owner)
+- [ ] USPTO search for brand and phrases (owner)
+- [ ] Logo + banner files
+- [x] About + announcement drafts (`brand/README.md`)
 
 ## 3. Products
-- [ ] Prototype each product
-- [ ] Source suppliers and materials
-- [ ] Packaging design
-- [ ] Cost every product in `pricing/`
+- [x] Artwork for tee, crewneck, mug, tote
+- [x] Printable PDFs
+- [x] Automated QC
+- [ ] Verify Printify print areas and costs (V2–V7)
+- [ ] Choose print providers
+- [ ] Upload to Printify, review mockups
+- [ ] Order samples (owner approval: costs money)
 
 ## 4. Listings
-- [ ] Product photos (hero, scale, detail, lifestyle)
-- [ ] Titles, tags, descriptions for each listing
-- [ ] Set prices, variations, shipping profiles
-- [ ] Aim for 10+ listings at launch
+- [x] Titles, tags, descriptions, attributes (drafts)
+- [x] Prices + margins (estimates)
+- [ ] Final prices after verified costs
+- [ ] Listing photos (Printify mockups; printable spreads)
+- [ ] Publish (owner approval)
 
-## 5. Shop setup
-- [ ] Open Etsy seller account; set up payments & taxes
-- [ ] Shop policies (returns, processing time, shipping)
-- [ ] Shipping profiles
-- [ ] Shop announcement and FAQ
+## 5. Shop setup (owner)
+- [ ] Etsy seller account, payments, taxes
+- [ ] Production partner entries (Printify plus each provider)
+- [ ] Policies: made-to-order returns, processing times
+- [ ] Shipping profiles (free US shipping)
 
 ## 6. Launch & promote
-- [ ] Set up Instagram / TikTok
-- [ ] Plan first 2 weeks of posts
-- [ ] Launch-day discount or freebie
-- [ ] Ask early buyers for reviews
+- [ ] Social accounts
+- [ ] First 2 weeks of posts
+- [ ] Launch offer (≤ 15% on physical items)
 
 ## 7. After launch
-- [ ] Check Etsy Stats weekly
+- [ ] Weekly Etsy Stats review
 - [ ] Rework titles/tags on listings with views but no sales
-- [ ] Add new listings regularly
