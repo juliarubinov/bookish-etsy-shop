@@ -4,17 +4,19 @@
 - [x] Fill in `shop-brief.md`
 - [x] Research round 1 (`research/`)
 - [x] Pick launch products (5)
-- [ ] **Confirm launch budget** (owner)
+- [x] Launch budget confirmed: $250 (`pricing/budget-plan.md`)
+- [x] Direction chosen: romance-reader humor
 
 ## 2. Brand
 - [x] Concept, palette, fonts, voice
-- [ ] Confirm shop name on Etsy + social handles (owner)
+- [x] Shop name chosen: juliasbookishworld
+- [ ] Confirm it's available on Etsy + social handles (owner)
 - [ ] USPTO search for brand and phrases (owner)
 - [ ] Logo + banner files
 - [x] About + announcement drafts (`brand/README.md`)
 
 ## 3. Products
-- [x] Artwork for tee, crewneck, mug, tote
+- [x] Artwork for 2 tees + 2 crewnecks (mug + tote shelved)
 - [x] Printable PDFs
 - [x] Automated QC
 - [ ] Verify Printify print areas and costs (V2–V7)

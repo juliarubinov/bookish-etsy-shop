@@ -27,7 +27,9 @@ SPECS = {
     "ruined-by-chapter-twelve-tee": (4500, 5100),        # Comfort Colors 1717 front
     "yearning-night-shift-sweatshirt": (4200, 4800),     # Gildan 18000 front
     "yearning-morning-shift-mug": (2475, 1155),          # 11oz ceramic mug wrap
-    "contents-tote": (3000, 3600),                       # S&S Bags natural tote front (10x12 in assumed)
+    "contents-tote": (3000, 3600),                       # S&S Bags natural tote front (10x12 in assumed) - shelved
+    "will-they-tee": (4500, 5100),                       # Comfort Colors 1717 front
+    "pining-professionally-sweatshirt": (4200, 4800),    # Gildan 18000 front
 }
 
 
@@ -306,11 +308,68 @@ def tote(size):
     return img
 
 
+def round_line(d, a, b, fill, width):
+    d.line([a, b], fill=fill, width=width)
+    r = width / 2
+    for x, y in (a, b):
+        d.ellipse((x - r, y - r, x + r, y + r), fill=fill)
+
+
+def pine_sprig(d, cx, cy, w, fill, stroke):
+    """Original pine sprig: a gently curved stem with paired needles, ending in a heart."""
+    h = w * 0.30
+    stem = bezier((cx - w / 2, cy + h * 0.35), (cx - w * 0.05, cy - h * 0.55), (cx + w * 0.42, cy - h * 0.05), n=200)
+    d.line(stem, fill=fill, width=stroke, joint="curve")
+    n = 13
+    for i in range(1, n):
+        k = int(i / n * (len(stem) - 2))
+        (x0, y0), (x1, y1) = stem[k], stem[k + 1]
+        ang = math.atan2(y1 - y0, x1 - x0)
+        length = w * (0.17 - 0.07 * i / n)
+        for side in (1, -1):
+            a = ang + side * math.radians(48)
+            round_line(d, (x0, y0), (x0 + length * math.cos(a), y0 + length * math.sin(a)), fill, stroke)
+    tx, ty = stem[-1]
+    heart(d, tx + w * 0.05, ty, w * 0.11, fill)
+
+
+def will_they_tee(size):
+    W, H = size
+    img = Image.new("RGBA", size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    cx = W / 2
+    content_w = W * 0.80
+    heart(d, cx - 190, 470, 460, INK)
+    heart(d, cx + 190, 540, 460, WINE)
+    f, _ = fit_size(DM, "WILL THEY?", content_w * 0.94, 1100, 0.06)
+    draw_text(d, cx, 1650, "WILL THEY?", f, INK, tracking=f.size * 0.06)
+    f2, _ = fit_size(PF_ITALIC, "(They will.)", content_w * 0.66, 800)
+    draw_text(d, cx, 2450, "(They will.)", f2, WINE)
+    return img
+
+
+def pining_sweatshirt(size):
+    W, H = size
+    img = Image.new("RGBA", size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    cx = W / 2
+    pine_sprig(d, cx, 650, 1700, WINE, 30)
+    f, _ = fit_size(PF_ITALIC, "Pining,", W * 0.62, 1200)
+    draw_text(d, cx, 2250, "Pining,", f, WINE)
+    f2, _ = fit_size(DM, "PROFESSIONALLY", W * 0.80, 600, 0.08)
+    draw_text(d, cx, 2900, "PROFESSIONALLY", f2, INK, tracking=f2.size * 0.08)
+    f3, _ = fit_size(INTER, "SINCE PAGE ONE", W * 0.42, 200, 0.22)
+    draw_text(d, cx, 3300, "SINCE PAGE ONE", f3, INK, tracking=f3.size * 0.22)
+    return img
+
+
 BUILDERS = {
     "ruined-by-chapter-twelve-tee": tee,
     "yearning-night-shift-sweatshirt": sweatshirt,
     "yearning-morning-shift-mug": mug,
     "contents-tote": tote,
+    "will-they-tee": will_they_tee,
+    "pining-professionally-sweatshirt": pining_sweatshirt,
 }
 
 

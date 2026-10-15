@@ -18,9 +18,11 @@ Routine, reversible decisions made on my own are marked **(auto)**. Decisions th
 | D15 | 2026-10-15 | Compared 3 directions; **recommend subtle romance-reader humor** (proposed, see `research/directions-comparison.md`) | Only direction with hard sales evidence; originality through wording; lowest production risk | Yes |
 | D16 | 2026-10-15 | Proposed launch: 5 listings on **2 physical types** (tee + crewneck) + printable; mug and tote art shelved, not deleted (proposed) | Owner's two-type limit; same DTG pipeline and one sample order | Yes |
 | D17 | 2026-10-15 | Design files target the largest known provider print area and get scaled down for smaller providers, never up **(auto)** | CC1717 front varies by provider: 4500×5100 down to 3600×4110 px (third-party table) | Yes |
-| D12 | — | **Launch budget** **(owner)** | Needed before any spend (samples, Etsy fees, Premium) | — |
-| D13 | — | **Approve designs and shop name** **(owner)** | Etsy's "designed by seller" needs your creative direction | — |
+| D12 | 2026-10-15 | **Launch budget: $250** **(owner)** | Plan in `pricing/budget-plan.md` | — |
+| D13 | — | **Approve final designs** (shop name done) **(owner)** | Etsy's "designed by seller" needs your creative direction | — |
 | D14 | — | **Order samples?** **(owner)** | Now est. ≈ $70–90 for 2 tees + 2 crewnecks incl. shipping (`pricing/startup-costs.md`) | — |
-| D18 | — | **Approve direction 1** (or choose 2 or 3) **(owner)** | Changes every design | — |
-| D19 | — | **Pick shop name** from 5 candidates **(owner)** | Seal artwork depends on it | — |
-| D20 | — | **Approve the 5-listing set**: keep the printable as listing 5, or swap it for a third tee? **(owner)** | Decides what I produce next | — |
+| D18 | 2026-10-15 | **Direction: subtle romance-reader humor** **(owner)** | Approved | — |
+| D19 | 2026-10-15 | **Shop name: juliasbookishworld** **(owner)** | "Department of Yearning" kept as the collection name **(auto)**, so no art changes | Rename collection anytime |
+| D20 | 2026-10-15 | **Keep the printable as listing 5** **(owner)** | Approved | — |
+| D21 | 2026-10-15 | New designs: "Will They? (They Will.)" tee, "Pining, Professionally" crewneck **(auto)** | From concepts #4 and #3 in `brand/shop-concept.md` | Yes |
+| D22 | 2026-10-15 | Budget allocation: $177 planned, $73 reserve **(auto)** | Covers setup fee, samples, one reprint, small ads test | Yes |

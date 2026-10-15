@@ -64,7 +64,7 @@ class Book:
         self.W, self.H = size
         self.c = canvas.Canvas(str(path), pagesize=size, initialFontName="Lato", initialFontSize=10)
         self.c.setTitle("The Yearning Log — Romance Reading Journal")
-        self.c.setAuthor("Department of Yearning")
+        self.c.setAuthor("Julia's Bookish World")
         self.m = 0.6 * inch
         self.page_no = 0
 
@@ -88,7 +88,7 @@ class Book:
         c.setFont(SANS, 7.5)
         c.setFillColor(INK)
         c.drawCentredString(self.W / 2, self.m * 0.55,
-                            "THE YEARNING LOG  ·  DEPT. OF YEARNING  ·  FOR PERSONAL USE")
+                            "THE YEARNING LOG  ·  JULIA'S BOOKISH WORLD  ·  FOR PERSONAL USE")
         c.showPage()
 
     def lines(self, x0, x1, y_top, n, gap=22):

@@ -1,6 +1,6 @@
 # Shop Concept: Subtle Romance-Reader Humor
 
-_Proposed 2026-10-15. Status: **awaiting your decisions** (see the end of this file). Not produced or published._
+_Proposed 2026-10-15. **Approved 2026-10-15:** direction 1, shop name **juliasbookishworld**, printable kept, budget $250. Collection produced (Stage 2). Not published._
 
 ## Target customer
 _Built from R1–R4 in `research/directions-comparison.md`. Labeled where it's my assumption._
@@ -28,7 +28,7 @@ Etsy names must be ≤ 20 characters with no spaces. **None checked:** Etsy, soc
 | 4 | ChapterTwelveCo (15) | Chapter Twelve Co. | Built on the hero tee; "chapter" is broad enough to grow | unverified | unverified | unverified |
 | 5 | PiningPress (11) | Pining Press | Pun on pining + printing press; "Press" may read as a publisher | unverified | unverified | unverified |
 
-**My pick: DeptOfYearning.** Choosing another name means re-rendering the seal artwork (a few minutes).
+**Owner's choice: juliasbookishworld** (not one of these five). "Department of Yearning" stays as the collection name, so no artwork changes were needed.
 
 ## Colour palette
 | Token | Hex | Role | Print? |

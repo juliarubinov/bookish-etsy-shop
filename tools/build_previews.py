@@ -118,6 +118,8 @@ def main():
     jobs = {
         "ruined-by-chapter-twelve-tee": lambda p, col, n: garment(p, col, 22, 29, 8, 15, 3.0, n),
         "yearning-night-shift-sweatshirt": lambda p, col, n: garment(p, col, 23, 28, 22, 14, 3.0, n),
+        "will-they-tee": lambda p, col, n: garment(p, col, 22, 29, 8, 15, 3.0, n),
+        "pining-professionally-sweatshirt": lambda p, col, n: garment(p, col, 23, 28, 22, 14, 3.0, n),
     }
     for slug, fn in jobs.items():
         art = ROOT / "products" / slug / "art" / f"{slug}-print.png"

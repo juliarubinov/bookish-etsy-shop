@@ -1,7 +1,7 @@
 # Product: Contents — Tote Bag
 
-- **Status:** artwork ready · specs UNVERIFIED · not uploaded to Printify
-- **Listing draft:** `listings/contents-tote.md`
+- **Status:** SHELVED for a later drop (launch is limited to two physical types: tee + crewneck). Artwork kept.
+- **Listing draft:** `listings/shelved/contents-tote.md`
 
 ## Artwork
 | File | Size | Notes |

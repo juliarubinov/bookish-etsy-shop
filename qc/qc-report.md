@@ -69,6 +69,40 @@ Specs are **UNVERIFIED** until checked in Printify (see `research/verification-n
 | Smallest text height at print | PASS | 'PLEASE HANDLE WITH FEELINGS' ≈ 0.22 in cap height (96 px font) |
 | Contrast on Natural (≈#EFE6D2) | PASS | lowest ink contrast 8.0:1 |
 
+## will-they-tee
+
+| Check | Result | Detail |
+|---|---|---|
+| Pixel size matches spec | PASS | 4500×5100 px (spec 4500×5100) |
+| Real resolution at print size | PASS | 300 px/in at 15.00 in wide (DPI tag 300; tag is not relied on) |
+| Colour mode RGBA / sRGB | PASS | RGBA |
+| Transparent background | PASS | 96.2% fully transparent |
+| Art not clipped at edges | PASS | closest art to edge: 308 px |
+| Art size at print | PASS | 11.19 × 7.44 in (bounding box) |
+| Semi-transparent pixels | PASS | 3.7% of inked pixels (anti-aliased edges only; no fades/glows used) |
+| Spot colours | PASS | 2 solid colours: #2A1A1F, #7A2338 |
+| Smallest text height at print | PASS | '(They will.)' ≈ 1.11 in cap height (476 px font) |
+| Contrast on Ivory (≈#F0E9DA) | PASS | lowest ink contrast 8.2:1 |
+| Contrast on Blossom (≈#F4C7CD) | PASS | lowest ink contrast 6.5:1 |
+| Contrast on Orchid (≈#D9C6DE) | PASS | lowest ink contrast 6.2:1 |
+
+## pining-professionally-sweatshirt
+
+| Check | Result | Detail |
+|---|---|---|
+| Pixel size matches spec | PASS | 4200×4800 px (spec 4200×4800) |
+| Real resolution at print size | PASS | 300 px/in at 14.00 in wide (DPI tag 300; tag is not relied on) |
+| Colour mode RGBA / sRGB | PASS | RGBA |
+| Transparent background | PASS | 94.5% fully transparent |
+| Art not clipped at edges | PASS | closest art to edge: 345 px |
+| Art size at print | PASS | 11.10 × 9.86 in (bounding box) |
+| Semi-transparent pixels | PASS | 4.0% of inked pixels (anti-aliased edges only; no fades/glows used) |
+| Spot colours | PASS | 2 solid colours: #2A1A1F, #7A2338 |
+| Smallest text height at print | PASS | 'SINCE PAGE ONE' ≈ 0.36 in cap height (156 px font) |
+| Contrast on Sand (≈#DCD0B9) | PASS | lowest ink contrast 6.5:1 |
+| Contrast on Light Pink (≈#F3D3DC) | PASS | lowest ink contrast 7.1:1 |
+| Contrast on White (≈#FFFFFF) | PASS | lowest ink contrast 9.9:1 |
+
 
 ## yearning-log-printable (digital)
 

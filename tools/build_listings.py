@@ -24,7 +24,7 @@ with open(ROOT / "pricing" / "pricing.csv") as f:
 POD_DISCLOSURE = (
     "**Made to order:** this item is printed on demand by our production partner, Printify, "
     "through one of its print providers ([PROVIDER NAME — add once chosen]). "
-    "Designed by Department of Yearning; the wording and artwork are original to this shop.")
+    "Designed by Julia's Bookish World; the wording and artwork are original to this shop.")
 AI_DISCLOSURE = (
     "**AI disclosure:** this design was created with the help of an AI assistant (it laid out "
     "the typography and drew the simple shapes in code, using open-license fonts). No images from "
@@ -82,6 +82,7 @@ LISTINGS = [
     ),
     dict(
         slug="yearning-morning-shift-mug",
+        shelved=True,
         title="Coffee First Then Yearning Mug, Romance Reader Coffee Mug, Bookish Gift for Book Lovers, Department of Yearning 11oz Ceramic Cup",
         tags=["romance reader mug", "bookish mug", "book lover mug", "reading coffee mug",
               "gift for readers", "book club gift", "romance book gift", "bookworm mug",
@@ -103,6 +104,7 @@ LISTINGS = [
     ),
     dict(
         slug="contents-tote",
+        shelved=True,
         title="Contents Books Snacks Unresolved Tension Tote Bag, Romance Reader Canvas Book Bag, Funny Bookish Gift, Library Tote for Book Lovers",
         tags=["bookish tote bag", "library tote", "romance reader tote", "book lover tote",
               "canvas book bag", "reader gift", "book club tote", "funny tote bag", "bookstore tote",
@@ -121,6 +123,50 @@ LISTINGS = [
         care="Spot clean or hand wash cold; air dry.",
         photos=["Printify mockup (thumbnail)", "Lifestyle: tote with books peeking out", "Close-up of print",
                 "Size reference on shoulder"],
+    ),
+    dict(
+        slug="will-they-tee",
+        title="Will They They Will Romance Reader Shirt, Funny Bookish Tee, Garment Dyed Book Lover Gift, Subtle Romance Novel T-Shirt for Readers",
+        tags=["romance reader shirt", "funny bookish shirt", "book lover gift", "romance novel shirt",
+              "reader gift", "bookworm shirt", "book club shirt", "subtle book shirt", "reading tshirt",
+              "gift for readers", "romance trope shirt", "happy ending shirt", "literary tee"],
+        category="Clothing › Gender-Neutral Adult Clothing › Tops & Tees › T-shirts",
+        attributes={"Primary color": "Beige / Pink / Purple (per variant)", "Secondary color": "Red",
+                    "Sleeve length": "Short sleeve", "Neckline": "Crew neck", "Fabric": "Cotton",
+                    "Style": "Minimalist", "Occasion": "Birthday", "Holiday": "Valentine's Day",
+                    "Who made it": "I did (designed by me, made by a production partner)",
+                    "What is it": "A finished product", "When was it made": "Made to order"},
+        variants="Colours: Ivory, Blossom, Orchid · Sizes: S–3XL (confirm provider range; larger sizes may cost more)",
+        opening="For readers who already know how it ends and read every page anyway. Two lines of original lettering: the question, then the answer, in wine italic.",
+        details=["Unisex relaxed fit (Comfort Colors 1717 heavyweight garment-dyed tee). Women may want one size down for a closer fit.",
+                 "100% ring-spun cotton [confirm on Printify listing]",
+                 "Front print, about 12 in wide (same print size on every shirt size); direct-to-garment printed",
+                 "Garment dyeing means every shirt's colour varies slightly; that's part of the charm"],
+        care="Machine wash cold inside out, tumble dry low, do not iron directly on the print.",
+        photos=["Printify flat-lay mockup, Ivory (thumbnail)", "Model mockup, Blossom", "Close-up of lettering",
+                "Lifestyle: tee with a paperback (no readable covers)", "All three colours", "Size chart"],
+    ),
+    dict(
+        slug="pining-professionally-sweatshirt",
+        title="Pining Professionally Sweatshirt, Romance Reader Crewneck, Funny Bookish Gift, Cozy Book Lover Sweater, Subtle Romance Novel Pullover",
+        tags=["romance reader gift", "bookish sweatshirt", "book lover crewneck", "reading sweatshirt",
+              "pining sweatshirt", "romance book merch", "bookworm sweater", "cozy reading top",
+              "book club gift", "gift for book lover", "funny book sweater", "slow burn reader", "pine tree sweater"],
+        category="Clothing › Gender-Neutral Adult Clothing › Hoodies & Sweatshirts › Sweatshirts",
+        attributes={"Primary color": "Beige / Pink / White (per variant)", "Secondary color": "Red",
+                    "Sleeve length": "Long sleeve", "Neckline": "Crew neck", "Fabric": "Cotton blend",
+                    "Style": "Minimalist", "Holiday": "Christmas", "Occasion": "Birthday",
+                    "Who made it": "I did (designed by me, made by a production partner)",
+                    "What is it": "A finished product", "When was it made": "Made to order"},
+        variants="Colours: Sand, Light Pink, White · Sizes: S–3XL (confirm)",
+        opening="Some people pine for the weekend. You pine for two fictional people to finally say it. An original pine-sprig design, with a tiny heart, for the professionally yearning.",
+        details=["Unisex classic fit (Gildan 18000 Heavy Blend crewneck)",
+                 "50% cotton / 50% polyester [confirm on Printify listing]",
+                 "Front print, about 11 in wide (same on every size)",
+                 "Original artwork: a drawn pine sprig ending in a tiny heart, with serif and italic lettering"],
+        care="Machine wash cold inside out, tumble dry low, do not iron the print.",
+        photos=["Printify mockup, Sand (thumbnail)", "Model mockup, Light Pink", "Close-up of pine sprig",
+                "Lifestyle: crewneck with a stack of books and a mug", "Colour options", "Size chart"],
     ),
     dict(
         slug="yearning-log-printable",
@@ -208,7 +254,9 @@ def main():
         else:
             print(L["slug"], f"OK title {len(L['title'])}/140, {len(L['tags'])} tags, longest tag "
                   f"{max(len(t) for t in L['tags'])}/20")
-        (ROOT / "listings" / f"{L['slug']}.md").write_text(render(L))
+        folder = ROOT / "listings" / ("shelved" if L.get("shelved") else "")
+        folder.mkdir(exist_ok=True)
+        (folder / f"{L['slug']}.md").write_text(render(L))
     sys.exit(1 if bad else 0)
 
 

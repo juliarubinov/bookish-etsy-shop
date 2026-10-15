@@ -26,6 +26,8 @@ BLANK_COLOURS = {  # approximate
     "yearning-night-shift-sweatshirt": {"Sand": "#DCD0B9", "Light Pink": "#F3D3DC", "White": "#FFFFFF"},
     "yearning-morning-shift-mug": {"White mug": "#FFFFFF"},
     "contents-tote": {"Natural": "#EFE6D2"},
+    "will-they-tee": {"Ivory": "#F0E9DA", "Blossom": "#F4C7CD", "Orchid": "#D9C6DE"},
+    "pining-professionally-sweatshirt": {"Sand": "#DCD0B9", "Light Pink": "#F3D3DC", "White": "#FFFFFF"},
 }
 MIN_CAP_IN = 0.10      # smallest acceptable capital-letter height at print
 MIN_CONTRAST = 4.5     # WCAG AA for normal text; used as a print legibility proxy

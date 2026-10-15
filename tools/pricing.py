@@ -21,20 +21,29 @@ OFFSITE_ADS = 0.15   # only on sales attributed to Offsite Ads
 # Free US shipping is built into the price, so the buyer pays item price only.
 PRODUCTS = [
     # slug, name, price, base, base_src, ship, ship_src
-    ("ruined-by-chapter-twelve-tee", "Tee — Comfort Colors 1717", 32.00,
+    ("ruined-by-chapter-twelve-tee", "Tee — Comfort Colors 1717 (Chapter Twelve)", 32.00,
      12.65, "Printify page excerpt 'From USD 12.65' (Free plan)", 4.75,
      "ESTIMATE: Printify shows 'from USD 3.99'; guides quote $4.29–4.99"),
-    ("yearning-night-shift-sweatshirt", "Sweatshirt — Gildan 18000", 46.00,
+    ("yearning-night-shift-sweatshirt", "Sweatshirt — Gildan 18000 (Night Shift)", 46.00,
      15.24, "Printify page excerpt 'From USD 15.24' (Free plan)", 7.50,
      "ESTIMATE: not found; assumed typical sweatshirt rate"),
+    ("will-they-tee", "Tee — Comfort Colors 1717 (Will They?)", 32.00,
+     12.65, "Printify page excerpt 'From USD 12.65' (Free plan)", 4.75,
+     "ESTIMATE: Printify shows 'from USD 3.99'; guides quote $4.29–4.99"),
+    ("pining-professionally-sweatshirt", "Sweatshirt — Gildan 18000 (Pining)", 46.00,
+     15.24, "Printify page excerpt 'From USD 15.24' (Free plan)", 7.50,
+     "ESTIMATE: not found; assumed typical sweatshirt rate"),
+    ("yearning-log-printable", "Digital — The Yearning Log PDF", 6.50,
+     0.00, "No production cost", 0.00, "Instant download"),
+]
+# Shelved for a later drop (not in the launch set; two-physical-type limit)
+SHELVED = [
     ("yearning-morning-shift-mug", "Mug — 11oz ceramic", 24.00,
      4.93, "Printify page excerpt 'From USD 4.93' (Free plan, cheapest provider)", 6.50,
      "ESTIMATE: not found; assumed typical mug rate"),
     ("contents-tote", "Tote — S&S Bags natural 15×16", 26.00,
      7.04, "Printify page excerpt 'From USD 7.04'", 5.50,
      "ESTIMATE: not found; assumed typical tote rate"),
-    ("yearning-log-printable", "Digital — The Yearning Log PDF", 6.50,
-     0.00, "No production cost", 0.00, "Instant download"),
 ]
 DISCOUNTS = [0.0, 0.15, 0.25]
 
@@ -74,14 +83,19 @@ def main():
             rows.append([slug, label, p, round(fees, 2), cost, round(profit, 2), round(m, 3)])
     md += ["", "⚠️ = margin under 15%.", "",
            "## Recommendations", "",
-           "- **Launch prices:** tee $32, sweatshirt $46, mug $24, tote $26, printable $6.50.",
+           "- **Launch prices:** tees $32, crewnecks $46, printable $6.50.",
            "- **Discount ceiling:** 15% on physical items (tee keeps ~$6.77). At 25% the tee drops to $3.87,",
            "  and a 25%-off sale that also comes through Offsite Ads nearly wipes out profit on every physical item.",
            "  25% is fine on the printable.",
-           "- **Bundle idea (later):** sweatshirt + mug at 10% off ships from different providers,",
-           "  so shipping won't combine. Check before offering.",
+           "- **Bundle idea (later):** tee + crewneck from the same provider may combine shipping. Check before offering.",
            "- **Break-even check:** after verifying costs, keep every physical product at ≥ $8 profit at full price.",
-           ""]
+           "", "## Shelved products (full price only, for reference)", "",
+           "| Product | Price | Printify cost | Profit | Margin |", "|---|---|---|---|---|"]
+    for slug, name, price, base, bsrc, ship, ssrc in SHELVED:
+        p, fees, cost, profit, m = calc(price, base, ship)
+        md.append(f"| {name} | ${p:.2f} | ${cost:.2f} | ${profit:.2f} | {m * 100:.0f}% |")
+        rows.append([slug, "Full price", p, round(fees, 2), cost, round(profit, 2), round(m, 3)])
+    md.append("")
     out = ROOT / "pricing"
     (out / "pricing.md").write_text("\n".join(md))
     with open(out / "pricing.csv", "w", newline="") as f:

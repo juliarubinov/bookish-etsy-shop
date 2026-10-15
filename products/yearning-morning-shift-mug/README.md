@@ -1,7 +1,7 @@
 # Product: Department of Yearning — Morning Shift Mug
 
-- **Status:** artwork ready · specs UNVERIFIED · not uploaded to Printify
-- **Listing draft:** `listings/yearning-morning-shift-mug.md`
+- **Status:** SHELVED for a later drop (launch is limited to two physical types: tee + crewneck). Artwork kept.
+- **Listing draft:** `listings/shelved/yearning-morning-shift-mug.md`
 
 ## Artwork
 | File | Size | Notes |

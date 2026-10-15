@@ -55,7 +55,7 @@ For every reader whose book got them at chapter twelve. A soft, garment-dyed tee
 
 **Processing & returns:** every piece is made for you after you order, so processing usually takes a few business days before shipping [confirm provider's time]. Because items are made to order, we can't accept returns for size or change of mind, but if your item arrives damaged, misprinted or defective, message us within 30 days with a photo and we'll replace it or refund you.
 
-**Made to order:** this item is printed on demand by our production partner, Printify, through one of its print providers ([PROVIDER NAME — add once chosen]). Designed by Department of Yearning; the wording and artwork are original to this shop.
+**Made to order:** this item is printed on demand by our production partner, Printify, through one of its print providers ([PROVIDER NAME — add once chosen]). Designed by Julia's Bookish World; the wording and artwork are original to this shop.
 
 **AI disclosure:** this design was created with the help of an AI assistant (it laid out the typography and drew the simple shapes in code, using open-license fonts). No images from other artists were used.
 

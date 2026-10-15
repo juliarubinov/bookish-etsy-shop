@@ -7,7 +7,8 @@ For more confidence, ask a trademark attorney.
 
 | Phrase / mark | Where used | Web check (2026-10-15) | Risk notes | USPTO check |
 |---|---|---|---|---|
-| Department of Yearning | Shop name, seal, all products | No business or product found by exact-phrase web search | Main brand. **Highest priority to check.** Consider filing your own if it sells | ☐ |
+| Julia's Bookish World / juliasbookishworld | Shop name | Not checked | Contains a personal first name plus generic words, so likely low risk; still check Etsy and USPTO | ☐ |
+| Department of Yearning | Collection name, seal | No business or product found by exact-phrase web search | Main brand. **Highest priority to check.** Consider filing your own if it sells | ☐ |
 | Ruined by Chapter Twelve | Tee | No matching products found | Original phrase | ☐ |
 | Night Shift | Sweatshirt | Common English phrase; it's also a famous title used in other media | Used as a descriptor next to our own mark; flag for review | ☐ |
 | Morning Shift | Mug | Common phrase | Descriptor | ☐ |
@@ -15,6 +16,8 @@ For more confidence, ask a trademark attorney.
 | Contents: Books (too many), Snacks, Unresolved tension | Tote | "Unresolved tension" not found on products | Original combination | ☐ |
 | Please handle with feelings | Tote | Not checked | Original phrase | ☐ |
 | Open until the last page | Sweatshirt | Not checked | Original phrase | ☐ |
+| Will They? (They will.) | Tee | Not checked | "Will they / won't they" is a common phrase; our two-line answer looks original. Flag | ☐ |
+| Pining, Professionally / Since page one | Crewneck | Not checked | Original combination | ☐ |
 | The Yearning Log | Printable | Not checked | Original phrase | ☐ |
 | Est. Chapter One | Seal | Not checked | Generic | ☐ |
 
