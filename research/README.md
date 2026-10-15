@@ -1,5 +1,7 @@
 # Research — Round 1 (2026-10-15)
 
+> Round 2 (direction comparison) is in `directions-comparison.md`; tool limits are in `tooling.md`.
+
 All sources accessed **2026-10-15** via web search. Etsy.com and Printify.com could
 **not** be opened directly from this workspace (network policy blocks those hosts), so
 figures below come from search-result excerpts of those pages or from third-party sites.

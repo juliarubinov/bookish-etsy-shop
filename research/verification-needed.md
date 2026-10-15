@@ -7,7 +7,8 @@ network access to these hosts and I'll do it.
 | # | Item | Where to check | Value assumed in files | Status |
 |---|---|---|---|---|
 | V1 | Etsy fee rates (US) | etsy.com/legal/fees | 6.5% + 3% + $0.25 + $0.20 | ☐ |
-| V2 | Tee print area px — Comfort Colors 1717, chosen provider | Printify Product Creator → File guidelines | 4500 × 5100 px front | ☐ |
+| V2 | Tee print area px — Comfort Colors 1717, chosen provider (third-party table: 4500×5100 for most providers; Fulfill Engine 4200×4800; Print Geek 3600×4110) | Printify Product Creator → File guidelines | 4500 × 5100 px front | ☐ |
+| V11 | Etsy one-time setup fee for your account | Etsy signup | $15 (reports up to $29) | ☐ |
 | V3 | Sweatshirt print area px — Gildan 18000 | same | 4200 × 4800 px front | ☐ |
 | V4 | Mug 11oz wrap px — blueprint 478, chosen provider | same | 2475 × 1155 px | ☐ |
 | V5 | Tote print area px — S&S Bags natural tote (blueprint 1090) | same | 3000 × 3600 px | ☐ |

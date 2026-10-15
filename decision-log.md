@@ -15,6 +15,12 @@ Routine, reversible decisions made on my own are marked **(auto)**. Decisions th
 | D9 | 2026-10-15 | Prices $32 / $46 / $24 / $26 / $6.50; discount ceiling 15% on physical items **(auto)** | Profit ≥ $9.84 at full price; 25% off plus Offsite Ads wipes out margin | Yes |
 | D10 | 2026-10-15 | Avoid "book boyfriend", "BookTok", "one more chapter" **(auto)** | Pending trademark / platform branding / overused | Yes |
 | D11 | 2026-10-15 | Disclose AI assistance and Printify production in every listing and in About **(auto)** | Etsy rules require AI and production-partner disclosure | Keep |
+| D15 | 2026-10-15 | Compared 3 directions; **recommend subtle romance-reader humor** (proposed, see `research/directions-comparison.md`) | Only direction with hard sales evidence; originality through wording; lowest production risk | Yes |
+| D16 | 2026-10-15 | Proposed launch: 5 listings on **2 physical types** (tee + crewneck) + printable; mug and tote art shelved, not deleted (proposed) | Owner's two-type limit; same DTG pipeline and one sample order | Yes |
+| D17 | 2026-10-15 | Design files target the largest known provider print area and get scaled down for smaller providers, never up **(auto)** | CC1717 front varies by provider: 4500×5100 down to 3600×4110 px (third-party table) | Yes |
 | D12 | — | **Launch budget** **(owner)** | Needed before any spend (samples, Etsy fees, Premium) | — |
 | D13 | — | **Approve designs and shop name** **(owner)** | Etsy's "designed by seller" needs your creative direction | — |
-| D14 | — | **Order samples?** **(owner)** | Est. ~$65–80 for one of each physical item incl. US shipping, before tax (UNVERIFIED; from `pricing/pricing.md` costs) | — |
+| D14 | — | **Order samples?** **(owner)** | Now est. ≈ $70–90 for 2 tees + 2 crewnecks incl. shipping (`pricing/startup-costs.md`) | — |
+| D18 | — | **Approve direction 1** (or choose 2 or 3) **(owner)** | Changes every design | — |
+| D19 | — | **Pick shop name** from 5 candidates **(owner)** | Seal artwork depends on it | — |
+| D20 | — | **Approve the 5-listing set**: keep the printable as listing 5, or swap it for a third tee? **(owner)** | Decides what I produce next | — |

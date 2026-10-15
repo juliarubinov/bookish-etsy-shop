@@ -1,6 +1,6 @@
 # Shop Brief — Department of Yearning
 
-_Last updated 2026-10-15. Status: collection drafted, nothing published, nothing spent._
+_Last updated 2026-10-15. Status: Stage 1 done. A new launch proposal (tee + crewneck + printable) is in `brand/shop-concept.md`, waiting for your approval. The table below is the earlier 5-product draft. Nothing published, nothing spent._
 
 ## Concept
 - **Shop name (working):** DeptOfYearning / "Department of Yearning" (availability unverified)
